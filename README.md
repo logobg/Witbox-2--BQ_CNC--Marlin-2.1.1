@@ -12,7 +12,7 @@
     <a href="https://twitter.com/MarlinFirmware"><img alt="Follow MarlinFirmware on Twitter" src="https://img.shields.io/twitter/follow/MarlinFirmware?style=social&logo=twitter"></a>
 </p>
 
-changes in:
+Changes in:
 platformio.ini
 Configuration.h
 Configuration_adv.h
