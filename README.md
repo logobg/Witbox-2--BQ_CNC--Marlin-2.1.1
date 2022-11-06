@@ -1,3 +1,16 @@
+Changes in:
+platformio.ini
+Configuration.h
+Configuration_adv.h
+pins.h
+pins_BQ_CNC.h
+thermistors.h
+thermistor_100.h
+
+bed pin is e1 pin
+led pin is the aux pin
+the bed thermistor is over the e0 thermistor pin = 14 analog input pin (you have to solder 4.7 kohm resistor on the board to make it work)
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
@@ -12,18 +25,6 @@
     <a href="https://twitter.com/MarlinFirmware"><img alt="Follow MarlinFirmware on Twitter" src="https://img.shields.io/twitter/follow/MarlinFirmware?style=social&logo=twitter"></a>
 </p>
 
-Changes in:
-platformio.ini
-Configuration.h
-Configuration_adv.h
-pins.h
-pins_BQ_CNC.h
-thermistors.h
-thermistor_100.h
-
-bed pin is e1 pin
-led pin is the aux pin
-the bed thermistor is over the e0 thermistor pin = 14 analog input pin (you have to solder 4.7 kohm resistor on the board to make it work)
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
