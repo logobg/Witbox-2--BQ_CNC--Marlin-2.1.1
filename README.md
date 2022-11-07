@@ -7,7 +7,7 @@ pins_BQ_CNC.h
 thermistors.h
 thermistor_100.h
 
-bed pin is e1 pin
+bed pin is e1 pin. use mosfet and at least 300w power supply to reach max 70 degrees :(
 led pin is the aux pin
 the bed thermistor is over the e0 thermistor pin = 14 analog input pin (you have to solder 4.7 kohm resistor on the board to make it work)
 
