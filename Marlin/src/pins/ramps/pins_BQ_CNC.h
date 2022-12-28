@@ -84,7 +84,7 @@
 // Light
 //
 #ifndef CASE_LIGHT_PIN
-  #define CASE_LIGHT_PIN                      2  // FAN_BOX_PIN
+  #define CASE_LIGHT_PIN                      10  // FAN_BOX_PIN
 #endif
 
 // Alter timing for graphical display
@@ -104,5 +104,5 @@
 //
  #if ENABLED(WITBOX2_HEATED_BED)
    #undef HEATER_BED_PIN
-   #define HEATER_BED_PIN                       10  // HEATER_1_PIN
+   #define HEATER_BED_PIN                       2  // HEATER_1_PIN
  #endif
